@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T20:13:20 GMT-07:00" name="Page Object test example" finished-at="2022-10-18T20:14:06 GMT-07:00" duration-ms="46229">
+  <suite started-at="2022-10-19T08:49:59 GMT-07:00" name="Page Object test example" finished-at="2022-10-19T08:51:03 GMT-07:00" duration-ms="64157">
     <groups>
     </groups>
-    <test started-at="2022-10-18T20:13:20 GMT-07:00" name="test-1" finished-at="2022-10-18T20:14:06 GMT-07:00" duration-ms="46229">
+    <test started-at="2022-10-19T08:49:59 GMT-07:00" name="test-1" finished-at="2022-10-19T08:51:03 GMT-07:00" duration-ms="64157">
       <class name="com.orangeHRM.test.OrangeHRM_Login">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:20 GMT-07:00" name="SetUp" finished-at="2022-10-18T20:13:21 GMT-07:00" duration-ms="766" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:49:59 GMT-07:00" name="SetUp" finished-at="2022-10-19T08:50:00 GMT-07:00" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:21 GMT-07:00" name="initializeTestBaseSetup" finished-at="2022-10-18T20:13:35 GMT-07:00" duration-ms="14376" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:00 GMT-07:00" name="initializeTestBaseSetup" finished-at="2022-10-19T08:50:32 GMT-07:00" duration-ms="31750" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:35 GMT-07:00" name="setUp" finished-at="2022-10-18T20:13:35 GMT-07:00" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:32 GMT-07:00" name="setUp" finished-at="2022-10-19T08:50:32 GMT-07:00" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyLoginurlTest(java.lang.String,java.lang.String)[pri:1, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:35 GMT-07:00" name="VerifyLoginurlTest" description="verifySignInPageURL() method call for URL verification" data-provider="Login" finished-at="2022-10-18T20:13:48 GMT-07:00" duration-ms="12863" status="PASS">
+        <test-method signature="VerifyLoginurlTest(java.lang.String,java.lang.String)[pri:1, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:32 GMT-07:00" name="VerifyLoginurlTest" description="verifySignInPageURL() method call for URL verification" data-provider="Login" finished-at="2022-10-19T08:50:45 GMT-07:00" duration-ms="13051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginurlTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:48 GMT-07:00" name="tearDown" finished-at="2022-10-18T20:13:48 GMT-07:00" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:45 GMT-07:00" name="tearDown" finished-at="2022-10-19T08:50:45 GMT-07:00" duration-ms="24" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="VerifyLogintextTest(java.lang.String,java.lang.String)[pri:2, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:13:48 GMT-07:00" name="VerifyLogintextTest" description="verifySignInPageText() method call for Tab verification" data-provider="Login" finished-at="2022-10-18T20:14:00 GMT-07:00" duration-ms="11574" status="PASS">
+        <test-method signature="VerifyLogintextTest(java.lang.String,java.lang.String)[pri:2, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:45 GMT-07:00" name="VerifyLogintextTest" description="verifySignInPageText() method call for Tab verification" data-provider="Login" finished-at="2022-10-19T08:50:56 GMT-07:00" duration-ms="11557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogintextTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:14:00 GMT-07:00" name="tearDown" finished-at="2022-10-18T20:14:00 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:56 GMT-07:00" name="tearDown" finished-at="2022-10-19T08:50:56 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,11 +85,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="logoVerifyTest()[pri:3, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:14:00 GMT-07:00" name="logoVerifyTest" description="validateLogo() method call for logo verification" finished-at="2022-10-18T20:14:04 GMT-07:00" duration-ms="3875" status="PASS">
+        <test-method signature="logoVerifyTest()[pri:3, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:50:56 GMT-07:00" name="logoVerifyTest" description="validateLogo() method call for logo verification" finished-at="2022-10-19T08:51:00 GMT-07:00" duration-ms="3827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoVerifyTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:14:04 GMT-07:00" name="tearDown" finished-at="2022-10-18T20:14:04 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:51:00 GMT-07:00" name="tearDown" finished-at="2022-10-19T08:51:00 GMT-07:00" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-18T20:14:04 GMT-07:00" name="tearDown" finished-at="2022-10-18T20:14:06 GMT-07:00" duration-ms="2508" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.test.OrangeHRM_Login@3527942a]" started-at="2022-10-19T08:51:00 GMT-07:00" name="tearDown" finished-at="2022-10-19T08:51:03 GMT-07:00" duration-ms="2796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

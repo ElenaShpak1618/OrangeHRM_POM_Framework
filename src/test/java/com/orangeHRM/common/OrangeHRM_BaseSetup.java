@@ -71,7 +71,6 @@ public class OrangeHRM_BaseSetup {
 
 	private static WebDriver initChromeDriver(String appURL) throws InterruptedException {
 		System.out.println("Launching google chrome with new profile..");
-		//System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to(appURL);
@@ -132,7 +131,7 @@ public class OrangeHRM_BaseSetup {
 
 	}
 
-	// It will execute after every test execution
+	
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 
